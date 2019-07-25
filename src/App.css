@@ -1,0 +1,185 @@
+@import '~antd/dist/antd.css';
+/* home page */
+#nbar{
+  height: 50px;
+  background-color:  rgb(129, 61, 192);
+}
+#hometext{
+  padding: 5%;
+}
+#buttons{
+  padding: 5%;
+}
+#leftbtn{
+  float: right;
+  margin-right: 10%;
+  height: 70px;
+  width: 250px;
+  color: rgb(250, 250, 253);
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(10, 111, 243);
+  box-shadow: 10px 0 40px 2px;
+  border-radius: 18px;
+  
+}
+#rightbtn{
+  float: left;
+  margin-left: 10%;
+  height: 70px;
+  width: 250px;
+  color: rgb(250, 250, 253);
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(10, 111, 243);
+  box-shadow: 10px 0 40px 2px;
+  border-radius: 18px;
+
+}
+#reserv{
+  margin-left: 25%;
+  height: 70px;
+  width: 300px;
+  color: rgb(250, 250, 253);
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(10, 111, 243);
+  box-shadow: 10px 0 40px 2px;
+  border-radius: 18px;
+}
+
+
+
+.confirm{
+  padding-left: 10%;
+  padding-right: 30%;
+  background-color: #c7b5b5;
+  border:3px;
+  border-color: #282c34;
+}
+.tittle{
+  padding-left: 30%;
+  padding-top: 3px;
+  padding-bottom: 5px;
+
+}
+#suivant{
+  float: right;
+}
+
+/* navbar begins */
+#nav{
+ width:100%;
+ background-color:  rgb(129, 61, 192);
+ color: #e9e9e9;
+}
+/* navbarn ends */
+/* main form begins */
+#main_form{
+  box-shadow: 0px 0 20px 2px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 50px;
+}
+#top_row{
+  background-color: rgb(129, 61, 192);
+  height: 100px;
+}
+#reserve_title{
+  background-color: rgb(129, 61, 192);
+  padding-left: 25px;
+  margin-bottom: -14px;
+  padding-top: 100px;
+  padding-bottom: 5px;
+}
+#heading{
+  color:wheat;
+}
+@media (max-width:400px){
+  #top_row{
+    display: none;
+  }
+  #reserve_title{
+    background-color: rgb(129, 61, 192);
+    padding-left: 25px;
+    margin-bottom: -16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+}
+/* main forms ends */
+
+/* //ss */
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 6px;
+  background-color: #fafafa;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
+.foo {
+  display: none;
+  opacity: 0;
+  animation: fade-out 1s 1;
+}
+.foo.fade-in {
+  display: block;
+  opacity: 1;
+  animation: fade-in 0.5s 1;
+}
+/* //sss */
+
+.field{
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+.but{
+  margin: 5px;
+}
+.steps{
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

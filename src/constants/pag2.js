@@ -1,0 +1,2 @@
+const page2text ="Le Formulaire suivant contient les informations nécessaires à la réservation d’un colis d’un casier. Veuillez remplir l’ensemble du formulaire. La validation de la réservation d’un espace casier pour l’envoi de colis à un coût qui s’élève d’une valeur de la somme de X. Les frais d’expédition seront payés par les différents type de mobile money "
+export default page2text
