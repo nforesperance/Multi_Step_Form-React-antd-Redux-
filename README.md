@@ -1,6 +1,6 @@
-# React Step Form
+# React Multi Step Form
 
-> Form with multiple steps and confirmation. Frontend only, no API. Uses Material UI
+> A multi step form build with react, ant design and redux. The data is collected, verified and stored in the redux store as you fill.
 
 ## Quick Start
 
@@ -19,13 +19,10 @@ npm run build
 
 ### Author
 
-Brad Traversy
-[Traversy Media](http://www.traversymedia.com)
+Nfor Esperance
+
 
 ### Version
 
 1.0.0
 
-### License
-
-This project is licensed under the MIT License
